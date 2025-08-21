@@ -1,36 +1,12 @@
-# Python virtual environment
-# This folder is specific to your computer and should never be committed.
-venv/
-.venv/
-env/
-.env/
-
-# Python cache and bytecode files
+# Python cache files
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
 
-# IDE and editor configuration files
-.vscode/
-.idea/
-*.swp
-*.swo
+# Virtual Environment
+venv/
 
-# Generated output files from your app
-*.png
-*.jpg
-*.jpeg
-*.gif
-
-# OS-generated files
-.DS_Store
-Thumbs.db
-
-# Build artifacts
-build/
-dist/
-*.egg-info/
-
-# Streamlit-specific cache and configuration
+# Streamlit Cache (if it exists)
 .streamlit/
+
+# The actual cache folder in your project
+cache/
