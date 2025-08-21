@@ -36,3 +36,5 @@ dist/
 
 # Streamlit-specific cache
 .streamlit/
+# Streamlit-specific cache
+.streamlit/
