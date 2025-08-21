@@ -1,11 +1,11 @@
 # Python virtual environment
-# Never commit your virtual environment folder
+# This folder is specific to your computer and should never be committed.
 venv/
 .venv/
 env/
 .env/
 
-# Python cache files
+# Python cache and bytecode files
 __pycache__/
 *.pyc
 *.pyo
@@ -17,9 +17,7 @@ __pycache__/
 *.swp
 *.swo
 
-# Generated output files
-# You might want to keep one final demo image, but generally,
-# generated files are not tracked in version control.
+# Generated output files from your app
 *.png
 *.jpg
 *.jpeg
@@ -34,7 +32,5 @@ build/
 dist/
 *.egg-info/
 
-# Streamlit-specific cache
-
+# Streamlit-specific cache and configuration
 .streamlit/
-
