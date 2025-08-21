@@ -1,0 +1,38 @@
+# Python virtual environment
+# Never commit your virtual environment folder
+venv/
+.venv/
+env/
+.env/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE and editor configuration files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Generated output files
+# You might want to keep one final demo image, but generally,
+# generated files are not tracked in version control.
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Streamlit-specific cache
+.streamlit/
